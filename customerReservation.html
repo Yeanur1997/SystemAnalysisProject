@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Burger</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+            <a href="customerIndex.html">Home</a>
+           </div>
+
+        <div class="nav-link-wrapper">
+        <a href="customerMenu.html">Menu</a>
+        </div>
+        <div class="nav-link-wrapper">
+            <a href="customerReservation.html">Reservation</a>
+            </div>
+         <div class="nav-link-wrapper">
+                <a href="customerInquiry.html">Inquiry</a>
+                </div>
+
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+        <div><h2><b>Famous Burger</b></h2></div>
+        </div>
+        </div>
+
+    </div>
+
+    <div class=reservation-container>
+        <form action="action_page.php">
+            <h3>Table Reservation</h3><br>
+            <h4>We would be glad to reserve a table for you at our restaurant.</h4><br>
+            <label for="Cname">Name</label>
+            <input type="text" id="Cname" name="cname" placeholder="Your Name......"><br><br>
+            <label for="Rdatetime">Reservation Date & Time:</label> </label>
+            <input type="datetime-local" id="Rdatetime" name="rdatetime"><br></br>
+            <label for="Cnumber">Number of Attendees</label>
+            <select id="Cnumber" name="cnumber">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write here..." style="height:200px"></textarea><br><br>
+
+            
+        
+           
+            <input type="submit" value="Submit">
+
+            <div class="container log-out">
+                <p>Do you want to log out? <a href="index.html">Log out</a>.</p>
+              </div>
+        </form>
+
+    </div>
+        
+       
+         <footer>
+            <div class="footer-content">
+                <h3>Famous Burger</h3>
+                <p>Address: Gulshan-1, Dhaka Bangladesh<br>Mobile: +880123456789<br>Email Address: famousburger@gmail.com<br>Hours: 11:30 am to 11:00 pm</p>
+                <ul class="social-links">
+                    <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                    <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="#"><i class='bx bxl-whatsapp' ></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2020 famousburger</p>
+            </div>
+        </footer>
+          
+        <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    </body>
+    </html>

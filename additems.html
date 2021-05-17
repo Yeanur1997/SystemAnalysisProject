@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Burger</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+            <a href="adminIndex.html">Home</a>
+           </div>
+
+        <div class="nav-link-wrapper">
+        <a href="adminMenu.html">Menu</a>
+        </div>
+        <div class="nav-link-wrapper">
+            <a href="adminReservation.html">Reservation<br>list</a>
+            </div>
+         <div class="nav-link-wrapper">
+                <a href="adminInquiry.html">Inquiry<br>list</a>
+                </div>
+         <div class="nav-link-wrapper">
+                 <a href="additems.html">Add Items</a>
+                  </div>
+
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+        <div><h2><b>Famous Burger</b></h2></div>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="item-container">
+        <form action="/action_page.php">
+            <h3>New Item</h3><br>
+            <label for="Pname">Name</label>
+            <input type="text" id="Pname" name="productname" placeholder="Item Name">
+            <label for="description">Description</label>
+            <textarea id="description" name="description" placeholder="Item Description" style="height: auto;"></textarea>
+            <label for="img">Select image: </label>
+            <input type="file" id="img" name="img" accept="image/*"><br><br>
+            <label for="price">Price</label>
+            <input type="text" id="price" name="price" placeholder="Product Price"><br>
+            <input type="submit" value="Submit"><br>
+            <div class="container log-out">
+                <p>Do you want to log out? <a href="index.html">Log out</a>.</p>
+              </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Famous Burger</h3>
+            <p>Address: Gulshan-1, Dhaka Bangladesh<br>Mobile: +880123456789<br>Email Address: famousburger@gmail.com<br>Hours: 11:30 am to 11:00 pm</p>
+            <ul class="social-links">
+                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-whatsapp' ></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2020 famousburger</p>
+        </div>
+    </footer>
+      
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
